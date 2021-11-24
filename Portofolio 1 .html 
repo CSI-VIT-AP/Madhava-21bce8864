@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Madhava Reddy
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            a:link 
+            {
+                color: rgb(38, 207, 38);
+                text-decoration: none;
+            }
+            a:visited 
+            {
+                color: rgb(38, 207, 38);
+                text-decoration: none;
+            }
+            a:hover 
+            {
+                color: rgb(38, 207, 38);
+                background-color:transparent;
+                text-decoration: none;
+            }
+            a:active 
+            {
+                color: rgb(206, 206, 206);
+                background-color: transparent;
+                text-decoration: none;
+            }
+            body{
+                background-color: rgb(29, 29, 29);
+                color: rgb(206, 206, 206);
+                padding: 20px;
+            }
+            .column{
+                border-radius: 1%;
+                color: rgb(206, 206, 206);
+                background-color: rgb(10, 10, 10);
+                box-shadow:0px 0px 20px rgb(214, 214, 214);
+                height: 47vw;
+            }
+            .marginbar{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 45px;
+                margin-right: 45px;
+                border: 2px solid rgb(38, 207, 38);
+            }
+            body,h1,h2,h3,h4,h5,h6,div,p 
+            {
+                font-family: "Roboto", sans-serif
+            }
+            .green{
+                color: rgb(38, 207, 38);
+            }
+            .button{
+                background-color: rgb(10, 10, 10);
+                border: 0.2vw solid rgb(38, 207, 38);
+                padding: 0.7vw 2vw;
+                font-size: 1.5vw;
+                border-radius: 10px;
+                text-align: center;
+                transition-duration: 0.4s;
+                color: rgb(206, 206, 206);
+                margin-right: auto;
+                margin-left: auto;
+            }
+            .button:hover{
+                background-color: rgb(38, 207, 38);
+                color: rgb(10, 10, 10);
+                font-size: 2vw;
+            }
+            .social{
+                width: 3.5vw;
+                padding-top: 2vw;
+            }
+            .social:hover{
+                width: 4.5vw;
+                padding-top: 1vw;
+            }
+        </style>
+    </head>
+    <body >
+        <!--        Left Column        -->
+        <div class="column" id="left" style="float: left;width: 23%;overflow: auto;">
+            <div style="padding-top: 10%;padding-left: 15%;padding: right 15%;margin-left: auto;margin-right: auto;">
+                <!--    Photo     -->
+                <img src="me.jpg" style="width: 80%;border-radius: 50%;box-shadow:0px 0px 30px rgb(38, 207, 38);" >
+            </div>
+            <div>
+                <!--     Name     -->
+                <h1 class="green" style="text-align: center;font-size: 2vw;margin-left: auto;margin-right: auto;">
+                    Madhava Reddy
+                </h1>
+            </div>
+            <div style="text-align: center;margin-bottom: 4vw;">
+                <!--     All the Buttons    -->
+                <h3 style="padding-top: 1vw;"><a class="button" href="#Introduction">Introduction</a></h3>
+                <h3 style="padding-top: 1vw;"><a class="button" href="#Education">Education</a></h3>
+                <h3 style="padding-top: 1vw;"><a class="button" href="#Skills">Skills</a></h3>
+                <h3 style="padding-top: 1vw;"><a class="button" href="#Experience">Experience</a></h3>
+                <h3 style="padding-top: 1vw;"><a class="button" href="#Contact">Contact</a></h3>
+                
+            </div>
+        </div>
+        <!--   Right Column    -->
+        <div class="column" id="right"  style="float: right;width: 73%;overflow: auto;">
+            <!--     Introduction   -->
+            <div id="Introduction" style="padding: 4vw;padding-bottom: 2vw;"> 
+                <p >
+                    <h2 style="font-size: 1.7vw;">Hi<br> I am <span class="green">Madhava</span>,</h2>
+                    <h3 style="font-size: 1.3vw;">I am from the state of Andhra Pradesh and currently persuing my Bachelor of Technology in Computer Science and Engineering from VIT-AP.<br>
+                    I love to solve day to day problems. <br>
+                    I have a keen interest in Artificial Intelligence and Robotics and i also love to do competetive programming.<br>
+                    Apart from these in my free time i love to listen to songs.<br>
+                    I am a easy going person and doesn't take stress over small things and try to solve those with calmness.</h3>
+                </p>
+            </div>
+            <hr class="marginbar">
+            <!--      Education      -->
+            <div id="Education" style="padding: 4vw;padding-top: 2vw;">
+                <p>
+                    <img src="books.png" alt="Book" style="float: left;width: 3.1vw;height:3.1vw;">
+                    <h1 style="padding-left: 5vw;font-size: 2vw;">Education Details</h1>
+                </p>
+                <div style="padding-left: 8vw;">
+                    <h2 style="font-size: 1.7vw;"><span class="green" style="font-size: 2.2vw;">:-> </span>Vellore Institute of Technology,Amravathi,Andhra Pradesh</h2>
+                    <div style="padding-left: 4vw;">
+                        <h3>
+                            <img src="calendar.png" alt="calendar" style="float: left;width: 2.7vw;height:1.7vw;">
+                            <span class="green" style="padding-left: 1vw;font-size: 1.3vw;">Aug 2021  -  Present</span>
+                        </h3>
+                        <div style="padding-left: 4vw; font-size: 1.2vw;">
+                            Bachelor of Technology(<span class="green">BTech</span>) in Computer Science and Engineering(<span class="green">CSE</span>)
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-left: 8vw;">
+                    <h2 style="font-size: 1.7vw;"><span class="green" style="font-size: 2.2vw;">:-> </span>Narayana Junior College,Nellore,Andhrapradesh.</h2>
+                    <div style="padding-left: 4vw;">
+                        <h3>
+                            <img src="calendar.png" alt="calendar" style="float: left;width: 2.7vw;height:1.7vw ;">
+                            <span class="green" style="padding-left: 1vw;font-size: 1.3vw;">2018 -  2020</span>
+                        </h3>
+                        <div style="padding-left: 4vw;font-size: 1.2vw;">
+                            <span class="green">MPC</span> 12th Boards - <span class="green">9.94</span> <br>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-left: 8vw;">
+                    <h2 style="font-size: 1.7vw;"><span class="green" style="font-size:2.2vw;">:-> </span>Dr.Kishore's Ratnam Think Next High school,Nellore,Andhrapradesh.</h2>
+                    <div style="padding-left: 4vw;">
+                        <h3>
+                            <img src="calendar.png" alt="calendar" style="float: left;width: 2.7vw;height:1.7vw ;">
+                            <span class="green" style="padding-left: 1vw;font-size: 1.3vw;">2015  -  2017</span>
+                        </h3>
+                        <div style="padding-left: 4vw;font-size: 1.2vw;">
+                            <span class="green">SSC</span> 10th Boards - <span class="green">9.8</span><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="marginbar">
+            <!--     Skills    -->
+            <div id="Skills" style="padding: 4vw;padding-top: 1vw;">
+                <img src="all skill.png" alt="all skill" style="width: 30vw;height: 25vw;float: right;padding-top: 4vw;" >
+                <p>
+                    <img src="skill.png" alt="Skills" style="float: left;width: 3vw;height:3vw ;">
+                    <h1 style="padding-left: 4vw;font-size: 2vw;">Skills</h1>
+                </p>
+                
+                </div>
+                <div style="padding-left: 8vw;">
+                    <h2 style="font-size: 1.7vw;">
+                        <span class="green" style="font-size: 2.2vw;">:-> </span>
+                        PYTHON
+                    </h2>
+                    
+                </div>
+            </div>
+            <hr class="marginbar">
+            <!--     Experience    -->
+            <div id="Experience" style="padding: 4vw;padding-top: 2vw;">
+                <p>
+                    <img src="experience.png" alt="experience" style="float: left;width: 3.1vw;height:3.1vw ;">
+                    <h1 style="padding-left:5vw;font-size: 2vw;">Experience</h1>
+                </p>
+                <div style="padding-left: 8vw;">
+                    <h2 style="font-size: 1.7vw;">
+                        <span class="green" style="font-size: 2.2vw;">:-> </span>
+                        Computer Society of India
+                    </h2>
+                    <h3 style="font-size: 1.3vw;">
+                        <img src="csi.jpeg" alt="csi" style="float: left;padding-left: 3vw;width: 11vw;padding-right: 3vw;">
+                        I am a core member in the Computer Society of India(<span class="green">CSI</span>) chapter of my university (<span class="green">VIT-AP</span>).
+                        <br>
+                        I am a part of <span class="green">V-OPEN SOURCE</span> team where we work on Open Source Projects.
+                        <br><br>
+                        <a href="https://csivitap.co.in/" target="_blank" >csivitap.co.in</a>
+                    </h3> 
+            <br><br>
+            <hr class="marginbar">
+            <!--     Contact   -->
+            <div id="Contact" style="padding: 4vw;padding-top: 2vw;">
+                <p>
+                    <img src="contact.png" alt="contact" style="float: left;width: 3.1vw;height:3.1vw ;">
+                    <h1 style="padding-left:5vw;font-size: 2vw;">Contact Me</h1>
+                </p>
+                <div>
+                    <p style="padding-left: 8vw;">
+                        <img src="phone.png" alt="phone" style="width: 3.1vw;height: 3.1vw;padding-right: 1vw;float: left;">
+                        <h2 style="font-size: 1.7vw;">9392613202</h2>
+                    </p>
+                    <p style="padding-left: 8vw;">
+                        <img src="gmail.png" alt="gmail" style="width: 2.7vw;padding-right: 0.6vw;float: left;">
+                        <h2 style="font-size: 1.7vw;">madathalamadhavareddy@gmail.com</h2>
+                    </p>
+                    <p style="padding-left: 8vw;">
+                        <img src="socials.png" alt="social" style="width: 3vw;float: left;padding-right: 1vw;">
+                        <h2 style="font-size: 1.7vw;">All other socials are linked below 
+                        <img src="down arrow.png" alt="arrow" style="width: 2vw;">
+                    </h2>
+                    <div style="padding-left: 15vw;padding-bottom: 6vw;">
+                        <a href="https://www.instagram.com/Hitomu_japana_eito/" target="_blank">
+                            <img src="insta.png" class="social" alt="insta" >
+                        </a>
+                        <a href="https://wa.me/919392613202" target="_blank">
+                        <img src="whatsapp.png" class="social" alt="whatsapp" >
+                        </a>
+                        <a href="https://github.com/Madhava20" target="_blank">
+                            <img src="github.png" class="social" alt="github" >
+                        </a>
+                        <a href="https://www.linkedin.com/in/madhava-reddy-33924b217/" target="_blank">
+                            <img src="linkedin.png" class="social" alt="linkedin">
+                        </a>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
